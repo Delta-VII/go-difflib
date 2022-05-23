@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"strings"
 	"testing"
-	"./tester"
+	"github.com/Delta-VII/go-difflib/difflib/tester"
 )
 
 func assertAlmostEqual(t *testing.T, a, b float64, places int) {
